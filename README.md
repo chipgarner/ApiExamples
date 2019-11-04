@@ -1,5 +1,7 @@
 ##Setup
 
+This program uses python3 
+
 ### Intall dependencies
 
 pip3 install numpy
