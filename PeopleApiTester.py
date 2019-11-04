@@ -13,10 +13,10 @@ class PeopleApiTester:
 
         self.headers = {
             'content-type': "application/json",
-            'x-api-key': "StHTx85hZW2PVqH9ei2bFWjcwPnQpcL2bkRj8G98",
+            'x-api-key': "get me from Sentry",
             'cache-control': "no-cache"
         }
-        self.url = 'https://6plof56cpj.execute-api.us-west-2.amazonaws.com/v1/people-stepfn'
+        self.url = 'get url from sentry'
 
         self.payload_no_image = {'body': {'Site_Id': sentry_id, 'Camera_Name': 'test', 'Image_Bytes': ''}}
 
